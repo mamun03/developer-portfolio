@@ -11,8 +11,10 @@ section{
 .half-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 .half-width img{
+
     width: 60%;
     padding-left: 25%;
 }
@@ -27,4 +29,18 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.resume-button{
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(250, 179, 132), rgb(247, 81, 81));
+    font-weight: 700;
+    color: aliceblue;
+    padding: 9px 30px;
+    border-radius: 5px;
+}
+.top-banner{
+    margin-bottom: 5%;
+}
+.dream-big{
+    margin-bottom: 5%
 }
