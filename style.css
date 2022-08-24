@@ -60,15 +60,26 @@ h1{
 }
 .experience-area{
     padding: 5%;
-}
-#bottom-line{
-
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .pre-exp-shadow{
-    width: 50%;
+    width: 45%;
     padding-left: 2.5%;
     padding-right: 2.5%;
     box-shadow: 5px 5px 30px 5px gray;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 7px;
+}
+#fullstack{
+    border-left: 7px solid orangered;
+}
+#baby{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
+
 }
