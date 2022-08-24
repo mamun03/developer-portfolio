@@ -8,6 +8,9 @@ body{
 section{
     display: flex;
 }
+h1{
+    font-size: 30px;
+}
 .half-width{
     width: 50%;
     padding-left: 5%;
@@ -51,4 +54,21 @@ section{
 }
 .non-flex{
     margin-bottom: 150px;
+}
+.exp-title{
+    color: orange;
+}
+.experience-area{
+    padding: 5%;
+}
+#bottom-line{
+
+}
+.pre-exp-shadow{
+    width: 50%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    box-shadow: 5px 5px 30px 5px gray;
+    margin-left: 5%;
+    margin-right: 5%;
 }
