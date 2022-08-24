@@ -32,7 +32,7 @@ section{
 }
 .resume-button{
     text-decoration: none;
-    background-image: linear-gradient(to right, rgb(250, 179, 132), rgb(247, 81, 81));
+    background-image: linear-gradient(to right, rgb(240, 85, 180), rgb(247, 26, 118));
     font-weight: 700;
     color: aliceblue;
     padding: 9px 30px;
@@ -43,4 +43,9 @@ section{
 }
 .dream-big{
     margin-bottom: 5%
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
