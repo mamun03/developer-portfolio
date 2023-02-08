@@ -58,6 +58,7 @@ nav li{
 }
 .text{
     color: #757575;
+    font-size: 14px;
 }
 .banner-description{
     
@@ -75,10 +76,13 @@ nav li{
     
 }
 h3{
-    font-size: 25px;
+    font-size: 30px;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 35px;
 }
 /* main */
 main{
@@ -133,11 +137,17 @@ main{
     gap: 50px;
     margin-top: 50px;
 }
+h4{
+    font-size: 25px;
+}
 h5{
-    margin-top: 25px;
+    margin-top: 18px;
+    font-size: 20px;
 }
 h6{
     margin-bottom: 25px;
+    color: #757575;
+    font-size: 17px;
 }
 .resume-description{
     margin-bottom: 50px;
@@ -148,4 +158,26 @@ h6{
 }
 .resume-button{
     text-align: center;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 260px;
+}
+a{
+    margin-right: 30px;
+}
+.display{
+    display: grid;
+    gap: 0;
+}
+.message-me{
+    margin-bottom: 25px;
+    border: none;
+}
+.input-elements{
+    width: 461px;
+    height: 64px;
 }
